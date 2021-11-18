@@ -1,0 +1,43 @@
+*, input, button, select, textarea {
+  padding: 0;
+  margin: 0;
+  /* border: 1px red solid; */
+}
+
+body {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  background: #eee;
+}
+
+header {
+  width: 900px;
+  text-align: center;
+  padding: 20px 0;
+
+  background: rgb(163, 125, 69);
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+
+  width: 900px;
+  height: calc(100vh - 120px) ;
+}
+
+input, select, textarea{
+  font-size: 1rem;
+}
+
+#search, #result {
+  padding: 20px;
+  background: #fff;
+  font-size: 1.5rem;
+
+}
