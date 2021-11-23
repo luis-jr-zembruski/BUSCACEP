@@ -25,5 +25,4 @@ function getCep() {
     } else {
         alert("Digite um CEP válido!")
     }
-    
 }
